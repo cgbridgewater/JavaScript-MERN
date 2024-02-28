@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import Yikes from "../assets/Yikes.jpg"
+import Yikes from "../assets/yikes.jpg"
 
 const BadLink = () => {
 
