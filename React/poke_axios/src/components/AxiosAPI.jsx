@@ -30,8 +30,6 @@ const GetPokemon = (props) => {
         <div className="Pokemon">
             <h1>'Fetch' Pokemons With Axios</h1>
             <h3 style={{color:"white"}}>{pokemon2.name}</h3>
-
-            
             <p>
                 {
                 pokemon.length > 0 && pokemon.map((pokeObj, index)=>{
