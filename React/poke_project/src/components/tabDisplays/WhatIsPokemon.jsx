@@ -4,7 +4,6 @@ const WhatIsPokemon = () => {
     return (
         <div className="Tab1">
 
-
             <h2 className="Title">What is Pokémon?   </h2>
 
             <main className="Tab1Main">

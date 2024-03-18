@@ -9,6 +9,7 @@ import SleepingPichu from './tabDisplays/PikuSleeping';
 import PokemonGo from './tabDisplays/PokemonGo';
 import PokemonFavorites from './tabDisplays/PokemonFavorites';
 
+
   const TabDisplay = (props) => {
   const [activeTab, setActiveTab] = useState(1);
   const handleChange = (e, value) => {
@@ -17,7 +18,6 @@ import PokemonFavorites from './tabDisplays/PokemonFavorites';
 
   return (
     <div className="TabDisplay">
-      
       {/* Tab Control */}
       <div className='TabsContainer' >
       <Tabs selectedTab={activeTab} onChange={handleChange} >
