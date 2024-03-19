@@ -63,21 +63,23 @@ return (
             {/* form to collect data */}
             <form className='Form' onSubmit = { sendSurvey }>
             {/* input for search */}
-                <label>Search by name or number:</label>
-                <input className='FormInput' class_id='Input'
-                type="text"  
-                onChange={ (e) => 
-                    setInput(e.target.value) } 
-                value={ input }
-                />
-                {/* form submit button */}
-                <button 
-                id="ShakingButton" 
-                onClick={animate} 
-                className={shake ? `shake` : null} 
-                type="submit"
-                value="Submit!"
-                >Submit!</button>
+                <div>
+                    <label>Search by name or number:</label>
+                    <input className='FormInput' class_id='Input'
+                    type="text"  
+                    onChange={ (e) => 
+                        setInput(e.target.value) } 
+                        value={ input }
+                        />
+                    {/* form submit button */}
+                    <button 
+                    id="ShakingButton" 
+                    onClick={animate} 
+                    className={shake ? `shake` : null} 
+                    type="submit"
+                    value="Submit!"
+                    >Submit!</button>
+                </div>
             </form>
         </main>
         <hr />

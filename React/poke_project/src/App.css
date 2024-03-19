@@ -277,6 +277,10 @@ background-image: url("./components/tabDisplays/images/pokeball.png");
 form {
   position: relative;
   z-index: 1;
+  width: 70%;
+  margin: 0 auto 200px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* .RandomPick {
@@ -291,7 +295,9 @@ form {
 .FormInput {
   width: 250px;
   font-size: 25px;
+  margin: 5px 10px;
   border: 3px solid #84d1f5;
+  border-radius: 10px;
   background-color: grey;
   color: yellow;
   font-weight: 600;
@@ -370,7 +376,7 @@ label {
 .ResultImage {
   height: 350px;
   width: 350px;
-  padding-top: 45px;
+  padding-top: 125px;
   padding-right: 135px;
 }
 
@@ -423,7 +429,6 @@ label {
   height: 3px; 
 }
 
-
 #ShakingButton {
   height: 50px;
   width: 250px;
@@ -453,7 +458,6 @@ label {
   100%{ transform: translate(1px, -2px)  rotate(-1deg); }
 }
 
-
 #List1, #List2, .Construction {
   color: gold;
   list-style-type:none;
@@ -481,8 +485,6 @@ label {
     display:none !important;
   }
 }
-
-
 
 /*                             */
 /*     GO TO TOP COMPONENT     */
